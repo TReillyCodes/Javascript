@@ -1,0 +1,18 @@
+// Setting a constant variable of a Kelvin temperature of 293 
+const kelvin = 0;
+
+//Celsius is 273 degrees less than Kelvin
+const celsius = kelvin - 273;
+
+// Farenheit conversion = Celsius * (9/5)+32
+let farenheit = celsius *(9/5) +32;
+
+// Newton conversion for fun
+let newton = celsius * (33/100);
+newton = Math.floor(newton);
+
+//the .floor command rounds down any decimals to the whole number
+farenheit = Math.floor(farenheit);
+
+console.log(`The temperature is ${farenheit} degrees Farenheit`);
+console.log(`In Newtons that would be ${newton}!`)
